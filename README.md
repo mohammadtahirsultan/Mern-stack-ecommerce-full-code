@@ -35,7 +35,11 @@ To run this project, you will need to add the following environment variables to
 
 ## Getting Started
 
-Install The Required Dependencies
+Install The Required Dependencies for front-end
+
+```http
+  cd frontend
+```
 
 ```http
   npm i
@@ -44,13 +48,35 @@ Install The Required Dependencies
 Run the Project
 
 ```http
-  npm run dev
+  npm start
 ```
 
 Check localhost URL
 
 ```http
   http://localhot:3000
+```
+
+Install The Required Dependencies for backend Open your code editor in backend folder
+
+```http
+  cd backend
+```
+
+```http
+  npm i
+```
+
+Run the Project
+
+```http
+  npm start
+```
+
+Check localhost URL and Port that you mentioned in .env
+
+```http
+  http://localhot:Your_Port_No
 ```
 
 ## Authors

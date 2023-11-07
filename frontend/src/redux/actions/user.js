@@ -226,7 +226,7 @@ export const updateUserProfile = (formData) => async (dispatch) => {
   } catch (error) {
     dispatch({
       type: "updateProfileFail",
-      payload: error.response.data.message, 
+      payload: error.response.data.message,
     });
   }
 };

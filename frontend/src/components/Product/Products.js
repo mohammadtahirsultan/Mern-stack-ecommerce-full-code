@@ -91,7 +91,7 @@ const Products = () => {
             <Typography>Category</Typography>
             <div className="categoryBox">
               <ul>
-                {Categories &&  Categories.map((category) => (
+                {Categories && Categories.map((category) => (
                   <li
                     className="category-link"
                     key={category}

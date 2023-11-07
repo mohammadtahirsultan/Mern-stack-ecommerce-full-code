@@ -8,7 +8,7 @@ import { login, signUp } from "../../redux/actions/user";
 import { toast } from "react-hot-toast";
 import Loader from "../layout/Loader/Loader";
 import MetaData from "../layout/MetaData";
-const LoginSignUp = ({ location }) => {
+const LoginSignUp = () => {
   const [loginEmail, setLoginEmail] = useState("");
   const [loginPassword, setLoginPassword] = useState("");
   const [user, setUser] = useState({
@@ -67,7 +67,6 @@ const LoginSignUp = ({ location }) => {
     formData.set("password", password);
     formData.set("image", image); // set the image file
 
-    console.log(name, email, password);
     dispatch(signUp(formData));
   };
 

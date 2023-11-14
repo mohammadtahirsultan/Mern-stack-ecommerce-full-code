@@ -1,12 +1,8 @@
 import React from "react";
 import { ReactNavbar } from "overlay-navbar";
 import logo from "../../../images/logo.png";
-import {
-  FaCartArrowDown,
-  FaSearch,
-  FaUserAlt,
-} from "react-icons/fa";
-
+import FaSearch from '@mui/icons-material/Search';
+import FaSearch from '@mui/icons-material/AccountCircle';
 
 const Header = () => {
   return (
@@ -34,7 +30,7 @@ const Header = () => {
       searchIcon={true}
       SearchIconElement={FaSearch}
       cartIcon={true}
-      CartIconElement={FaCartArrowDown}
+      CartIconElement={FaSearch}
       profileIcon={true}
       ProfileIconElement={FaUserAlt}
       profileIconSize={"2.5vmax"}
